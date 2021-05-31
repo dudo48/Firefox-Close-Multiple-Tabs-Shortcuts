@@ -1,0 +1,32 @@
+{     
+    "manifest_version": 2,
+    "name": "Close Multiple Tabs Shortcuts",
+    "version": "1.0",
+    "background": {
+        "scripts": [
+            "background-script.js"
+        ]
+    },
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "commands": {
+        "other-tabs":{
+            "suggested_key": {
+                "default": "Alt+Shift+Down"
+            }
+        },
+        "right-tabs":{
+            "suggested_key": {
+                "default": "Alt+Shift+Right"
+            }
+        },
+        "left-tabs":{
+            "suggested_key": {
+                "default": "Alt+Shift+Left"
+            }
+        }
+    }
+}
